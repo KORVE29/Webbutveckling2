@@ -9,6 +9,7 @@
         background-color: rgb(88, 158, 220);
         margin: 0;
         color: pink;
+    }
     ul{
         display: flex;
         list-style: none;
@@ -21,13 +22,23 @@
         justify-content: center;
         justify-content: space-between;
         padding: 0.4rem;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     h1{
         padding: 0.3rem;
     }
     p{
         padding: 0.3rem;
+    }
+    a.nils, a.nils:visited{
+        color: pink;
+        text-decoration: none;
+    }
+
+
+    footer{
+        margin-top: 50rem;
+
     }
 
 
@@ -39,10 +50,11 @@
         <span>Semantiska element</span>
         <nav>
             <ul>
-                <li>Hem</li>
-                <li>Grundläggande element</li>
-                <li>Om mig</li>
-                <li>Hjälp</li>
+                
+                <li><a href="/hem.html" class="nils">Hem</a></li>
+                <li><a href="/grundläggandeelement.html" class="nils">Grundläggande element</a></li>
+                <li><a href="/ommig.html" class="nils">Om mig</a></li>
+                <li><a href="https://grok.com/" class="nils">Hjälp</a></li>
             </ul>
         </nav>
 
@@ -52,10 +64,22 @@
             Jonas
         </h1>
         <p>
-            Jonas, är ett populärt smeknamn till Jonathan Sköld. Namnet har ursprung ur Magnus teknik lektion då Magnus av misstag refererade till Jonathan som "Jonas".
+            Jonas är ett populärt smeknamn till Jonathan Sköld. Namnet har ursprung ur Magnus teknik lektion då Magnus av misstag refererade till Jonathan som "Jonas".
         </p>
+        <h1>
+            Lullevig Hafman
+        </h1>
+        <p>
+            Lullevig Hafman är ett populärt smeknamn till Ludvig Hafgren Wikman, där "Lullevig" skall representera förnamnet, och "Hafman" skall representera efternamnet. Uppkomsten av "Lullevig" är okänd, men "Hafman" uppkom när man kombinerade de första tre bokstäverna ur "Hafgren", och de sista tre bokstäverna ur "Wikman". Använd smeknamnet "Lullevig Hafman" på egen risk, då det kan framkalla ilska och våld.
+        </p>
+        
+        <img alt="Fin liten bild" loading="lazy" width="960" height="1201" decoding="async" data-nimg="1" class="rounded-lg" style="color:transparent" src="https://s.yimg.com/lo/mysterio/api/7a6b74782a8772bca7ac9846a949bdb42d705c902a0b43d20155b5e06881326a/lightyear_networkapi/resizefill_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fus_magazine_896%2Fc64e43a3cf36b7ff5660159fef4b8b00">
     </main>
     <footer>
+        <p>
+            <a href="mailto:oliver.stadler@elev.ga.dbgy.se" class="nils">Kontakta mig</a>
+            Copyright Oliver Stalledräng 2026
+        </p>
 
     </footer>
 </body>
